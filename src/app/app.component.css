@@ -8,5 +8,6 @@
       
     margin: 0;
     padding: 0;
-    background-color: #f9f9ff;
+    box-sizing: border-box;
+    /* background-color: #f9f9ff; */
   }

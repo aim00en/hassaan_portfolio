@@ -1,32 +1,89 @@
 .parent-container {
-  width: 20%;
-  border-right: solid 1px;
-  padding: 50px 40px 40px;
+  width: 24%;
+  border-right: solid 1px #4543607c;
+  padding: 2em 2em;
   font-family: "Rubik", sans-serif;
+  overflow: auto;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  line-height: 3em;
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  height: 100%; /* 100% Full-height */
+  position: fixed; /* Stay in place */
+  background-color: #f9f9ff;
 }
 .logo {
-  padding-bottom: 3em;
   color: #454360;
   font-weight: bolder;
+  font-size: clamp(.5rem, 3vw, 5rem);
+}
+.dot
+{
+  display: inline;
+  font-size: clamp(.25rem, 5vw, 10rem);
+  /* font-size: 4rem; */
+  color: #fd6b6d;
+}
+ul{
+  padding: 5em 0;
 }
 ul li {
-  /* margin-right: 2em; */
   list-style: none;
-  line-height: 2;
+ 
+}
+.icon{
+  font-size: clamp(.25rem, 1.25vw, 3rem);
+  color: #fd6b6d;
 }
 ul li a {
+  padding-left: 1.5em;
   text-decoration: none;
   color: #454360;
   /* color: black; */
-  font-weight: 550;
-  font-size: 20px;
-  padding-bottom: 25px;
+  font-weight: 900;
+  font-size: clamp(.70rem, 1.25vw, 3rem);
+
 }
 ul li a:hover {
   color: #fd6b6d;
 }
-ul li a.active {
-  color: blueviolet;
-  border-bottom: 3px solid rgba(137, 43, 226, 0.726);
+ul li a:focus {
+  color: #fd6b6d;
   transition: 0.3s;
 }
+.copyright{
+  padding-top:  0;
+  color: grey;
+  font-size: 0.85rem;
+  font-size: clamp(.25rem, 1.25vw, 3rem);
+
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-width: 650px) {
+  ul{
+    padding: 1em 0;
+  }
+  ul li a {
+    padding-left: .25em;
+    float: left;
+    margin-right:2em ;
+  }
+    .parent-container {
+      padding: 20px 10px;
+      line-height: 1em;
+      width: 100%;
+      height: auto;
+      position: relative;
+      border:none;
+
+    }
+    .icon{
+      display: none;
+    }
+    .copyright{
+      display: none;
+    }
+
+}
+

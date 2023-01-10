@@ -1,0 +1,94 @@
+.hero-section{
+  padding: 5em 0;
+    margin-left: 24%;
+    font-family: "Rubik", sans-serif;
+    color: #454360;
+    background-color: #f9f9ff;
+}
+.div-center{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-weight: 900;
+}
+.image{
+    padding-top: 5em;
+    padding-bottom: 2.5em;
+}
+.avatar{
+    border-radius: 50%;
+    width: 110px;
+}
+.square{
+    right: 10em;
+    width: 5%;
+    position: absolute;
+    z-index: 0;
+}
+.line{
+    right: 10em;
+    top: 20em;
+    width: 7%;
+    position: absolute;
+    z-index: 0;
+}
+.circle{
+    width: 7%;
+    position: absolute;
+    z-index: 0; 
+    margin-left: 2em; 
+}
+.triangle{
+    width: 7%;
+    right: 50em;
+    position: absolute;
+    z-index: 0;
+}
+.h-class:hover{
+    transition: 0.5s;
+    transform: translateX(-15px);
+}
+
+.social-links img{
+    height: 20px;
+    margin: 1.5em;
+    cursor: pointer;
+}
+.info{
+    line-height: 3em;
+    flex-direction: column;
+    align-items: center;
+    color: #454360;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: clamp(.5rem, 1.5vw, 5rem);
+}
+a  {
+display: flex;
+justify-content: center;
+text-decoration: none;
+}
+button{
+    text-decoration: none;
+    background: #fb5f61;
+    border: none;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    padding: .5em 2em;
+    border-radius: 2em;
+    font-size: 1.25em;
+    font-weight: 900;
+    cursor: pointer;
+    transform: scale(0.9);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%)
+}
+button:hover {
+    transition: 0.5s;
+    transform: scale(1);
+}
+@media screen and (max-width: 650px) {
+.hero-section{
+    margin-left: 0;
+}
+}
