@@ -22,6 +22,7 @@ h1{
 img{
   border-radius: 50%;
   width: 10em;
+  margin-bottom: 2em;
 }
 .col2{
   display: flex;
