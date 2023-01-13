@@ -1,107 +1,105 @@
-.hero-section{
+.hero-section {
   padding: 5em 0;
-    margin-left: 24%;
-    font-family: "Rubik", sans-serif;
-    color: #454360;
-    background-color: #f9f9ff;
+  margin-left: 24%;
+  font-family: "Rubik", sans-serif;
+  color: #454360;
+  background-color: #f9f9ff;
 }
-.div-center{
-    display: flex;
-    justify-content: center;
+.div-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-h1{
-    font-weight: 900;
+h1 {
+  font-weight: 900;
 }
-.image{
-    padding-top: 5em;
-    padding-bottom: 2.5em;
-    z-index: 1;
+.image {
+  padding-top: 5em;
+  padding-bottom: 2.5em;
+  z-index: 1;
 }
-.avatar{
-    border-radius: 50%;
-    width: 110px;
+.avatar {
+  border-radius: 50%;
+  width: 110px;
 }
-.square{
-    right: 10em;
-    width: 5%;
-    position: absolute;
-    z-index: 0;
+.square {
+  right: 10em;
+  width: 5%;
+  position: absolute;
+  z-index: 0;
 }
-.line{
-    right: 10em;
-    top: 20em;
-    width: 7%;
-    position: absolute;
-    z-index: 0;
+.line {
+  right: 4em;
+  top: 20em;
+  width: 7%;
+  position: absolute;
+  z-index: 0;
 }
-.circle{
-    width: 7%;
-    position: absolute;
-    z-index: 0; 
-    margin-left: 2em; 
+.circle {
+  width: 7%;
+  position: absolute;
+  z-index: 0;
+  margin-left: 2em;
 }
-.triangle{
-    width: 7%;
-    right: 50em;
-    position: absolute;
-    z-index: 0;
+.triangle {
+  width: 7%;
+  right: 50em;
+  position: absolute;
+  z-index: 0;
 }
-.h-class:hover{
-    transition: 0.5s;
-    transform: translateX(-15px);
+.h-class:hover {
+  transition: 0.5s;
+  transform: translateX(-15px);
 }
 
-.social-links img{
-    height: 20px;
-    margin: 1.5em;
-    cursor: pointer;
+.social-links img {
+  height: 20px;
+  margin: 1.5em;
+  cursor: pointer;
 }
-.info{
-    display: flex;
-    line-height: 3em;
-    flex-direction: column;
-    align-items: center;
-    color: #454360;
-    font-family: "Rubik", sans-serif;
-    font-weight: 700;
-    font-size: clamp(.5rem, 1.5vw, 5rem);
-    z-index: 1;
+.info {
+  margin: 0 5em;
+  display: flex;
+  line-height: 3em;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #454360;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: clamp(0.5rem, 1.5vw, 5rem);
+  z-index: 1;
 }
-a  {
-display: flex;
-justify-content: center;
-text-decoration: none;
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
-button{
-    text-decoration: none;
-    background: #fb5f61;
-    border: none;
-    color: #fff;
-    font-family: "Rubik", sans-serif;
-    padding: .5em 2em;
-    border-radius: 2em;
-    font-size: 1.25em;
-    font-weight: 900;
-    cursor: pointer;
-    transform: scale(0.9);
-    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
-    z-index: 1;
-
+button {
+  text-decoration: none;
+  background: #fb5f61;
+  border: none;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  padding: 0.5em 2em;
+  border-radius: 2em;
+  font-size: 1.25em;
+  font-weight: 900;
+  cursor: pointer;
+  transform: scale(0.9);
+  box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+  z-index: 1;
 }
 button:hover {
-    transition: 0.5s;
-    transform: scale(1);
+  transition: 0.5s;
+  transform: scale(1);
 }
 @media screen and (max-width: 650px) {
-.hero-section{
+  .hero-section {
     margin-left: 0;
-}
-.image{
-    /* padding-top: 2em; */
-    padding-bottom: 1em;
-}
-.hero-section{
-    padding: 1em 0;
-     
+    padding: 0;
+  }
+  .image {
+    padding: 2em 0;
   }
 }
