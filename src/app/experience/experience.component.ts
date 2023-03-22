@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {
-  faGraduationCap,
+  faGraduationCap, faBriefcase 
 } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -11,6 +11,8 @@ import {
 })
 export class ExperienceComponent implements OnInit {
   icon1 = faGraduationCap;
+  icon2 = faBriefcase;
+
   constructor() { }
 
   ngOnInit(): void {

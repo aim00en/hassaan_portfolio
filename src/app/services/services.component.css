@@ -48,6 +48,7 @@ h1 {
     flex-direction: column;
     color: #fff;
     justify-content: center;
+    text-align: center;
 }
 #box-2 .info{
     color:#454360

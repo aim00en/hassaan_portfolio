@@ -14,35 +14,21 @@ h1{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-img {
-  width: 17em;
-  height: 13em;
-  border-radius: 1em;
+.box{
+  padding: 1.5em;
+  margin: 1em 0;
   box-shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
-  margin-bottom: 2em;
+  border-radius: 30px;
+  border: none;
+}
+.date{
+  color: #908fa9;
+
 
 }
-video{
-    width: 17em;
-    height: 13em;
-    border-radius: 1em;
-  margin-bottom: 2em;
-  box-shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
+.tools{
+  font-size: 1.5rem;
 }
-/* img:hover{
-    opacity: 0.1;
-}
-video:hover{
-    opacity: 0.2;
-}
-.box:hover{
-    background-color: #6c6ce5;
-    width: 17em;
-    height: 13em;
-    border-radius: 1em;
-  transition: .5s;
-
-} */
 @media screen and (max-width: 650px) {
   .parent-container{
     margin-left: 0;
